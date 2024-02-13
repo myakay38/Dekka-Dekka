@@ -13,10 +13,22 @@
             #title {
                 display: grid;
                 grid-auto-flow: column;
-                text-align: center;
+                grid-auto-columns: 40% 10% 40%;
+                align-items: center;
+            }
+            #D1 {
+                text-align: right;
+            }
+            #D2 {
+                text-align: left;
+            }
+            #title img {
+                width: 100%;
             }
 
             #icons {
+                width: 50%;
+                margin: auto;
                 display: grid;
                 grid-auto-flow: column;
             }
@@ -26,21 +38,33 @@
 
     <body>
         <div id="title">
-            <h1>Dekka</h1>
-            <!--Rocketship-->
-            <h1>Dekka</h1>
+            <h1 id="D1">Dekka</h1>
+            <img src="https://raw.githubusercontent.com/myakay38/Dekka-Dekka/main/DekkaDekkaAvatar.jpg?token=GHSAT0AAAAAACNIAMJ5MXODPFWICHZXBJ5UZOLRVQA", alt="The Avatar for Dekka Dekka">
+            <h1 id="D2">Dekka</h1>
         </div>
 
         <hr>
 
         <div id="intro">
             <h2>Introduction</h2>
-            <!--introduction here-->
+            <p>Dekka Dekka is a three-dimensional maze game with a two dimensional display. You play as an alien trying to get back to their home planet. You can navigate the maze with the arrow keys and rotate your view with on-screen buttons. I built it in Netbeans using Java Swing to design the user interface. This was my culminating project for the gr. 12 Computer Science class I took online.</p>
         </div>
 
         <div id="icons">
             <!--icons here-->
+            <img src="https://icons8.com/icon/13679/java" alt="The Java logo">
+            <img src="https://icons8.com/icon/4djt356tq8UO/apache-netbeans" alt="The Netbeans logo">
         </div>
+
+        <div id="2.5D">
+            <h2>2.5D, You Say?</h2>
+            <!--description of the arrays and stuff-->
+        </div>
+
+        <!-- <div id="img srcs">
+            <a href="https://icons8.com/icons/set/java-programming"></a>
+            <a href="https://icons8.com/icons/set/netbeans"></a>
+        </div> -->
 
     </body>
 </html>
