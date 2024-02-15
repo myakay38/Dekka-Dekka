@@ -8,6 +8,7 @@
             body {
                 background-color: white;
                 font-size: 150%;
+                margin: 1em;
             }
 
             #title {
@@ -23,6 +24,10 @@
                 text-align: left;
             }
             #title img {
+                width: 100%;
+            }
+
+            #gameExample {
                 width: 100%;
             }
 
@@ -57,11 +62,16 @@
             <img src="https://icons8.com/icon/4djt356tq8UO/apache-netbeans" alt="The Netbeans logo">
         </div> -->
 
-        <img 
+        <img id="gameExample" src="https://raw.githubusercontent.com/myakay38/Portfolio/main/DekkaDekkaMainScreenShot.png" alt="The Dekka Dekka Game">
 
         <div id="2.5D">
             <h2>2.5D, You Say?</h2>
-            <!--description of the arrays and stuff-->
+            <p>The map for each level is stored in a 10x10x10 array of boolean values.The starting point, end point, and asteroid positions are randomized at the beginning of each game. Each time the user presses a button or arrow key, an updateDisplay() function reads the data from the level array and determines where the objects should be displayed using an instance of the DisplayView class, which represents one of the 24 perspectives from which the maze can be viewed.</p>
+        </div>
+
+        <div id="Play">
+            <h2>Play Dekka Dekka</h2>
+
         </div>
 
         <!-- <div id="img srcs">
